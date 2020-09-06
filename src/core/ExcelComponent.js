@@ -5,7 +5,7 @@ export class ExcelComponent extends DomListener {
     super($root, options.listeners);
     this.name = options.name || '';
   }
-  // Return component layout
+
   toHTML() {
     return '';
   }
